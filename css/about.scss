@@ -1,0 +1,33 @@
+
+
+#nav-about button{
+    &:active, &:visited, &:hover{
+        background-color: #ffffff50;
+        color: #eeeeee;
+    }
+}
+
+#nav-work button{
+    &:active, &:visited, &:hover{
+        background-color: $trans-lavender;
+        color: #eeeeee;
+    }
+}
+
+#nav-techniques button{
+    &:active, &:visited, &:hover{
+        background-color: $trans-gold;
+        color: #eeeeee;
+    }
+}
+
+#nav-contact button{
+    &:active, &:visited, &:hover{
+        background-color: $trans-red;
+        color: #eeeeee;
+    }
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom right, $teal 30%, $off-teal 120%);
+}
