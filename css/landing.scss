@@ -8,6 +8,11 @@ $lavender: #9e8aca;
 $gold: #d3bc5f;
 $red: #c83737;
 
+$teal-step1: hsla(192, 50, 55, 0.8);
+$teal-step2: hsla(192, 40, 45, 0.8);
+$teal-step3: hsla(192, 30, 35, 0.8);
+$teal-step4: hsla(192, 20, 25, 0.8);
+
 $trans-teal: #2c89a080;
 $trans-lavender: #9e8aca80;
 $trans-gold: #d3bc5f80;
@@ -70,7 +75,7 @@ button{
 #nav-about button{
 
     &:active, &:visited, &:hover{
-        background-color: $trans-teal;
+        background-color: $teal-step1;
         color: white;
     }
 }
@@ -78,7 +83,7 @@ button{
 #nav-work button{
 
     &:active, &:visited, &:hover{
-        background-color: $trans-lavender;
+        background-color: $teal-step2;
         color: white;
     }
 }
@@ -86,7 +91,7 @@ button{
 #nav-techniques button{
 
     &:active, &:visited, &:hover{
-        background-color: $trans-gold;
+        background-color: $teal-step3;
         color: white;
     }
 }
@@ -94,7 +99,7 @@ button{
 #nav-contact button{
 
     &:active, &:visited, &:hover{
-        background-color: $trans-red;
+        background-color: $teal-step4;
         color: white;
     }
 }
@@ -129,19 +134,19 @@ button{
 }
 
 .gradient-teal{
-    background-image: linear-gradient(to bottom right, $trans-white, $trans-teal);
+    background-image: linear-gradient(to bottom right, $trans-white, $teal-step1);
 }
 
 .gradient-lavender{
-    background-image: linear-gradient(to bottom right, $trans-white, $trans-lavender);
+    background-image: linear-gradient(to bottom right, $trans-white, $teal-step2);
 }
 
 .gradient-gold{
-    background-image: linear-gradient(to bottom right, $trans-white, $trans-gold);
+    background-image: linear-gradient(to bottom right, $trans-white, $teal-step3);
 }
 
 .gradient-red{
-    background-image: linear-gradient(to bottom right, $trans-white, $trans-red);
+    background-image: linear-gradient(to bottom right, $trans-white, $teal-step4);
 }
 
 // @keyframes mobile{
