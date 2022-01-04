@@ -58,22 +58,22 @@ button {
 }
 
 #nav-about button:active, #nav-about button:visited, #nav-about button:hover {
-  background-color: rgba(83, 175, 198, 0.8);
+  background-color: rgba(69, 142, 161, 0.5);
   color: white;
 }
 
 #nav-work button:active, #nav-work button:visited, #nav-work button:hover {
-  background-color: rgba(70, 162, 185, 0.8);
+  background-color: rgba(69, 142, 161, 0.6);
   color: white;
 }
 
 #nav-techniques button:active, #nav-techniques button:visited, #nav-techniques button:hover {
-  background-color: rgba(69, 142, 161, 0.8);
+  background-color: rgba(69, 142, 161, 0.7);
   color: white;
 }
 
 #nav-contact button:active, #nav-contact button:visited, #nav-contact button:hover {
-  background-color: rgba(66, 123, 138, 0.8);
+  background-color: rgba(69, 142, 161, 0.8);
   color: white;
 }
 
@@ -112,23 +112,23 @@ button {
 }
 
 .gradient-teal {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(83, 175, 198, 0.8)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(83, 175, 198, 0.8));
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.5)));
+  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.5));
 }
 
 .gradient-lavender {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(70, 162, 185, 0.8)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(70, 162, 185, 0.8));
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.6)));
+  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.6));
 }
 
 .gradient-gold {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.8)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.8));
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.7)));
+  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.7));
 }
 
 .gradient-red {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(66, 123, 138, 0.8)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(66, 123, 138, 0.8));
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.8)));
+  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.8));
 }
 
 @media (orientation: landscape) {
