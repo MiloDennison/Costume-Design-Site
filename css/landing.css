@@ -58,22 +58,22 @@ button {
 }
 
 #nav-about button:active, #nav-about button:visited, #nav-about button:hover {
-  background-color: rgba(83, 175, 198, 0.8);
+  background-color: rgba(112, 198, 219, 0.8);
   color: white;
 }
 
 #nav-work button:active, #nav-work button:visited, #nav-work button:hover {
-  background-color: rgba(69, 142, 161, 0.8);
+  background-color: rgba(83, 175, 198, 0.8);
   color: white;
 }
 
 #nav-techniques button:active, #nav-techniques button:visited, #nav-techniques button:hover {
-  background-color: rgba(62, 105, 116, 0.8);
+  background-color: rgba(69, 142, 161, 0.8);
   color: white;
 }
 
 #nav-contact button:active, #nav-contact button:visited, #nav-contact button:hover {
-  background-color: rgba(51, 71, 77, 0.8);
+  background-color: rgba(62, 105, 116, 0.8);
   color: white;
 }
 
@@ -112,23 +112,23 @@ button {
 }
 
 .gradient-teal {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(112, 198, 219, 0.8)));
+  background-image: linear-gradient(to bottom right, #ffffff, rgba(112, 198, 219, 0.8));
+}
+
+.gradient-lavender {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(83, 175, 198, 0.8)));
   background-image: linear-gradient(to bottom right, #ffffff, rgba(83, 175, 198, 0.8));
 }
 
-.gradient-lavender {
+.gradient-gold {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.8)));
   background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.8));
 }
 
-.gradient-gold {
+.gradient-red {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(62, 105, 116, 0.8)));
   background-image: linear-gradient(to bottom right, #ffffff, rgba(62, 105, 116, 0.8));
-}
-
-.gradient-red {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(51, 71, 77, 0.8)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(51, 71, 77, 0.8));
 }
 
 @media (orientation: landscape) {
