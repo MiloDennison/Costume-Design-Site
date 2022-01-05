@@ -9,25 +9,25 @@
 
 #nav-work button{
     &:active, &:visited, &:hover{
-        background-color: $trans-lavender;
+        background-color: $teal-step2;
         color: #eeeeee;
     }
 }
 
 #nav-techniques button{
     &:active, &:visited, &:hover{
-        background-color: $trans-gold;
+        background-color: $teal-step3;
         color: #eeeeee;
     }
 }
 
 #nav-contact button{
     &:active, &:visited, &:hover{
-        background-color: $trans-red;
+        background-color: $teal-step4;
         color: #eeeeee;
     }
 }
 
 .gradient{
-    background-image: linear-gradient(to bottom right, $teal 30%, $off-teal 120%);
+    background-image: linear-gradient(to bottom right, $teal-step1 30%, $teal-step4 120%);
 }
