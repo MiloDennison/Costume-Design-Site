@@ -1,3 +1,5 @@
+@import "generic";
+
 #nav-about button{
     &:active, &:visited, &:hover{
         background-color: $teal-step1;

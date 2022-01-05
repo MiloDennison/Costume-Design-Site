@@ -116,22 +116,22 @@ button {
 }
 
 #nav-work button:active, #nav-work button:visited, #nav-work button:hover {
-  background-color: #b1a6c9c0;
+  background-color: #458ea1;
   color: #eeeeee;
 }
 
 #nav-techniques button:active, #nav-techniques button:visited, #nav-techniques button:hover {
-  background-color: #d1c389c0;
+  background-color: #3e6974;
   color: #eeeeee;
 }
 
 #nav-contact button:active, #nav-contact button:visited, #nav-contact button:hover {
-  background-color: #c56b6bc0;
+  background-color: #33474d;
   color: #eeeeee;
 }
 
 .gradient {
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(30%, #2c89a0), color-stop(120%, #010b9940));
-  background-image: linear-gradient(to bottom right, #2c89a0 30%, #010b9940 120%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(30%, #53afc6), color-stop(120%, #33474d));
+  background-image: linear-gradient(to bottom right, #53afc6 30%, #33474d 120%);
 }
 /*# sourceMappingURL=about.css.map */
