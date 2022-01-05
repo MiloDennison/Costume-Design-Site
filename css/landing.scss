@@ -3,6 +3,8 @@
 $primary-grey: #999999;;
 $secondary-grey: #444444;
 
+$trans-white: #ffffff;
+
 $teal-step1: hsla(192, 40, 45, 0.50);
 $teal-step2: hsla(192, 40, 45, 0.60);
 $teal-step3: hsla(192, 40, 45, 0.70);
@@ -122,27 +124,8 @@ button{
 }
 
 .gradient-teal{
-    background-image: linear-gradient(to bottom right, $trans-white, $teal-step1);
-}
-
-.gradient-lavender{
-    background-image: linear-gradient(to bottom right, $trans-white, $teal-step2);
-}
-
-.gradient-gold{
-    background-image: linear-gradient(to bottom right, $trans-white, $teal-step3);
-}
-
-.gradient-red{
     background-image: linear-gradient(to bottom right, $trans-white, $teal-step4);
 }
-
-// @keyframes mobile{
-//     0% {background-image: linear-gradient(to bottom right, $trans-white, $teal);}
-//     33% {background-image: linear-gradient(to bottom right, $trans-white, $lavender);}
-//     66% {background-image: linear-gradient(to bottom right, $trans-white, $gold);}
-//     100% {background-image: linear-gradient(to bottom right, $trans-white, $red);}
-// }
 
 @media (orientation: landscape){
 

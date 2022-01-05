@@ -21,15 +21,12 @@ function hoverImage(color) {
 
 buttons.forEach(button => {
 
-    console.log(button.id);
-
     button.addEventListener("mouseover", function() {
-        hoverImage(button.id);
-        console.log(button.id);
+        hoverImage("teal");
     });
 
     button.addEventListener("mouseout", function() {
-        hoverImage(button.id);
+        hoverImage("teal");
     });
 
 });

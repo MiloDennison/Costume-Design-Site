@@ -2,32 +2,32 @@
 
 #nav-about button{
     &:active, &:visited, &:hover{
-        background-color: #ffffff50;
+        background-color: $teal-step2;
         color: #eeeeee;
     }
 }
 
 #nav-work button{
     &:active, &:visited, &:hover{
-        background-color: $teal-step2;
+        background-color: #ffffff50;
         color: #eeeeee;
     }
 }
 
 #nav-techniques button{
     &:active, &:visited, &:hover{
-        background-color: $teal-step3;
+        background-color: #ffffff50;
         color: #eeeeee;
     }
 }
 
 #nav-contact button{
     &:active, &:visited, &:hover{
-        background-color: $teal-step4;
+        background-color: #ffffff50;
         color: #eeeeee;
     }
 }
 
 .gradient{
-    background-image: linear-gradient(to bottom right, $teal-step1 30%, $teal-step4 120%);
+    background-image: linear-gradient(to bottom right, $teal-step2 30%, $teal-step4 120%);
 }

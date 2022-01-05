@@ -111,27 +111,27 @@ button {
 }
 
 #nav-about button:active, #nav-about button:visited, #nav-about button:hover {
-  background-color: #ffffff50;
-  color: #eeeeee;
-}
-
-#nav-work button:active, #nav-work button:visited, #nav-work button:hover {
   background-color: #458ea1;
   color: #eeeeee;
 }
 
+#nav-work button:active, #nav-work button:visited, #nav-work button:hover {
+  background-color: #ffffff50;
+  color: #eeeeee;
+}
+
 #nav-techniques button:active, #nav-techniques button:visited, #nav-techniques button:hover {
-  background-color: #3e6974;
+  background-color: #ffffff50;
   color: #eeeeee;
 }
 
 #nav-contact button:active, #nav-contact button:visited, #nav-contact button:hover {
-  background-color: #33474d;
+  background-color: #ffffff50;
   color: #eeeeee;
 }
 
 .gradient {
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(30%, #53afc6), color-stop(120%, #33474d));
-  background-image: linear-gradient(to bottom right, #53afc6 30%, #33474d 120%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(30%, #458ea1), color-stop(120%, #33474d));
+  background-image: linear-gradient(to bottom right, #458ea1 30%, #33474d 120%);
 }
 /*# sourceMappingURL=about.css.map */

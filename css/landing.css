@@ -112,21 +112,6 @@ button {
 }
 
 .gradient-teal {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.5)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.5));
-}
-
-.gradient-lavender {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.6)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.6));
-}
-
-.gradient-gold {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.7)));
-  background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.7));
-}
-
-.gradient-red {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ffffff), to(rgba(69, 142, 161, 0.8)));
   background-image: linear-gradient(to bottom right, #ffffff, rgba(69, 142, 161, 0.8));
 }
