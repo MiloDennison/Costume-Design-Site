@@ -67,7 +67,7 @@ button {
   color: white;
 }
 
-#nav-techniques button:active, #nav-techniques button:visited, #nav-techniques button:hover {
+#nav-blog button:active, #nav-blog button:visited, #nav-blog button:hover {
   background-color: rgba(69, 142, 161, 0.7);
   color: white;
 }

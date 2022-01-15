@@ -120,7 +120,7 @@ button {
   color: #eeeeee;
 }
 
-#nav-techniques button:active, #nav-techniques button:visited, #nav-techniques button:hover {
+#nav-blog button:active, #nav-blog button:visited, #nav-blog button:hover {
   background-color: #ffffff50;
   color: #eeeeee;
 }
