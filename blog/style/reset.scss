@@ -1,0 +1,19 @@
+@import "palette";
+
+:root {
+    font: 20px/1.2 $sans;
+    color: $primary-text-color;
+}
+
+body,
+body * {
+  margin: unset;
+  -webkit-box-sizing: unset;
+          box-sizing: unset;
+  padding: unset;
+  font-size: unset;
+  color: unset;
+  text-decoration: unset;
+}
+
+figure * { display: block; }

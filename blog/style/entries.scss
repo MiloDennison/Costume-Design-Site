@@ -1,0 +1,94 @@
+@import "palette";
+
+article {
+    display: grid;
+    
+    grid: {template-columns: 1fr .5in [start] 1.25in 7in 1.25in[end] .5in 1fr;}
+
+    background: linear-gradient($background-color, white);
+
+    padding: .5in 0;
+
+    * {
+        grid: {column: start / end;}
+    }
+    
+    h2, p { margin-bottom: 2.4rem; }
+
+    h1 { font: { variant: small-caps; size: 2rem; weight: 600; } }
+
+    h2 { 
+        font: { size: 1.25rem; weight: 400; } 
+        color: $secondary-text-color;
+    }
+
+    h3 { 
+        font: { size: 1rem; weight: 600; } 
+        color: $accent-color;
+    }
+    
+    time { 
+        font: { size: .75rem; weight: 600; } 
+        color: $accent-color;
+    }
+    
+    p { 
+        font: { size: 1rem; weight: 200; family: $serif;} 
+        line-height: 1.4;
+    }
+
+    a { box-shadow: inset 0 -.25em $underline-color}
+
+    figcaption {
+        p {
+            font: { size: .75rem }
+        }
+        color: $secondary-text-color;
+
+        margin-top: .5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .size-1 { 
+        grid-column: 4 / 5; 
+        img { width: 100% }
+    } 
+
+    .size-2 { 
+        grid-column: 3 / 6; 
+        img { width: 100% }
+    }
+
+    .size-3 { 
+        grid-column: 2 / 7; 
+        img { width: 100% }
+    }
+
+    .size-4 { 
+        grid-column: 1 / 8; 
+        img { width: 100% }
+    }
+
+}
+   
+@media (max-width: 10.5in) {
+    article{
+        grid: {template-columns:  1fr 5% [start] 15% 60% 15% [end] 5% 1fr;}
+    }
+
+    :root {font-size: 18px;}
+}
+
+@media (max-width: 5in) {
+    article{
+        grid: {template-columns:  1fr 5% [start] 15% 60% 15% [end] 5% 1fr;}
+    }
+
+    :root {font-size: 16px;}
+}
+
+
+// img.size-1, img.size-2, img.size-3, img.size-4 {
+//     width: 100%;    
+// }

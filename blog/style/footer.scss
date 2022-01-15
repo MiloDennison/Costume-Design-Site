@@ -1,0 +1,12 @@
+@import "palette";
+
+.socials {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: .5rem
+    }
+}
