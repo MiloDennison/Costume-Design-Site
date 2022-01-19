@@ -15,7 +15,10 @@ article {
     
     h2, p { margin-bottom: 2.4rem; }
 
-    h1 { font: { variant: small-caps; size: 2rem; weight: 600; } }
+    h1 { 
+        font: { variant: small-caps; size: 2rem; weight: 600; } 
+        a { box-shadow: inset 0 -.25em $underline-color}
+    }
 
     h2 { 
         font: { size: 1.25rem; weight: 400; } 
@@ -37,7 +40,7 @@ article {
         line-height: 1.4;
     }
 
-    a { box-shadow: inset 0 -.25em $underline-color}
+    
 
     figcaption {
         p {

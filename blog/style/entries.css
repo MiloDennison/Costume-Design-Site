@@ -5,8 +5,8 @@ article {
   display: grid;
   -ms-grid-columns: 1fr 0.5in [start] 1.25in 7in 1.25in [end] 0.5in 1fr;
       grid-template-columns: 1fr 0.5in [start] 1.25in 7in 1.25in [end] 0.5in 1fr;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6e7d5), to(white));
-  background: linear-gradient(#f6e7d5, white);
+  background: -webkit-gradient(linear, left top, left bottom, from(#faf3ea), to(white));
+  background: linear-gradient(#faf3ea, white);
   padding: .5in 0;
 }
 
@@ -22,6 +22,11 @@ article h1 {
   font-variant: small-caps;
   font-size: 2rem;
   font-weight: 600;
+}
+
+article h1 a {
+  -webkit-box-shadow: inset 0 -0.25em #ddb488;
+          box-shadow: inset 0 -0.25em #ddb488;
 }
 
 article h2 {
@@ -47,11 +52,6 @@ article p {
   font-weight: 200;
   font-family: "Zilla Slab";
   line-height: 1.4;
-}
-
-article a {
-  -webkit-box-shadow: inset 0 -0.25em #e2c09c;
-          box-shadow: inset 0 -0.25em #e2c09c;
 }
 
 article figcaption {
